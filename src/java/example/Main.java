@@ -20,11 +20,11 @@ public class Main {
         Callable fn = (Callable) callClojure("example.impl", "create-hello-fn");
         System.out.println("fn says " + fn.call());
 
-        // implement interfaces
+        // Clojure can implement interfaces
         FileFilter filter = (FileFilter) callClojure("example.impl", "create-never-filter");
         System.out.println("file filter returns " + filter.accept(new File("canttouchthis")));
 
-        // extend classes
+        // Clojure can extend classes
         Object o = callClojure("example.impl", "create-timestamped-object");
         System.out.println("object toString returns " + o);
     }

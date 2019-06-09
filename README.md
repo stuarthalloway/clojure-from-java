@@ -2,7 +2,7 @@
 
 Example showing calling Clojure from Java.
 
-# Why People Think Might This Is Hard
+# Why People Might Think This Is Hard
 
 Calling Clojure from Java is easy. The actual hard stuff is not calling Clojure, it is being able to (and therefore having to) make some choices:
 
